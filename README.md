@@ -1,4 +1,4 @@
-# Stock Management System
+# PHP Excersise v21.0.5
 A Task which have a form, on the behalf of form data should be display in the table format using their API. A graph also shown to compare the values from the display data. Also Email sent to the email account. Both side Validations (client side and server side) included. Test cases also included to make sure every thing is working fine. System using the Laravel version 9 with php version 8.1.
 https://github.com/muhammad-areeb-iqbal/laravel-php-exercise-21.0.5.git
 
