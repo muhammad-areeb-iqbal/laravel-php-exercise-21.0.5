@@ -74,14 +74,19 @@ php artisan serve
 php artisan queue:work --tries=3 --timeout=30
 ```
 10) Now test the url via browser
+
 url:
 ```
 http://127.0.0.1:8000/historical-data
 ```
 Try to fill the values as per given in the email as an example or your own choice
+
 Symbol: AMRN
+
 Start Date: 2023-04-01
+
 End Date: 2023-04-30
+
 Email: <your_email_address>
 
 11) Run Test cases in laravel in another terminal
