@@ -59,6 +59,8 @@ DB_DATABASE=php-exersice
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+Note:- Please make sure that database not already exist. If exist please remove or change from .env file.
+
 7) Set DB tables using migrate commands.
 ```
 php artisan migrate
@@ -86,3 +88,10 @@ Email: <your_email_address>
 ```
 php artisan test
 ```
+
+## Area of Improvements
+- I have used DB Queue for sending an email. We can replace it with Redis Queue.
+- We have created migrations but we can add a check if table already exist then remove it first then create a new one.
+- merge different css and javascript files of 3rd parties into one file and minify and by compressing can improve more performance.
+- We are using an API to get the symbols data, we can make a cache instead of calling an API each time.
+- Make a cache system, if some have already searches with in the same date-range, Result should get from cache.
