@@ -1,0 +1,57 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.container-table {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: left;
+    font-family: sans-serif;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+form {
+    border: 1px solid #1A33FF;
+    background: #ecf5fc;
+    padding: 40px 50px 45px;
+}
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+label {
+    font-weight: 600;
+}
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+.form-control.error {
+    border-color: red;
+    padding: .375rem .75rem;
+}
+
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+}
+
+.line{
+    text-decoration: underline;
+}
