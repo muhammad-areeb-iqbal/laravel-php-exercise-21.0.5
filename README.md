@@ -27,6 +27,7 @@ composer install
 php artisan env:decrypt --key=12985678906256567890424453782011
 ```
 This will create a ".env" file.
+
 5) We are using SendGrid Email You can create free account from https://signup.sendgrid.com/ and create an api key. Alternate you can use any email like mandgrill etc.
 
 SET your smtp credentials here in ".env" OR use my credentials already set in .env file
